@@ -1,0 +1,36 @@
+section.blog-container {
+  // background: red;
+  margin-top: 20px;
+  .container {
+    h1 {
+      margin-top: 0;
+    }
+    h4.date {
+      font-size: 12px;
+    }
+  }
+
+
+}
+
+div.a2a_kit{ //add styles to have addtoany appear in middle of every news page
+    color: white;
+    width: 70px;
+    background: #8EB78D;
+    border-radius: 5px;
+    padding: 5px 15px 15px 15px;
+    a{
+      .a2a_svg {
+
+        border-radius: 0;
+      }
+      padding-top: 10px;
+      // padding-top: 0;
+      // margin-top: 0;
+      transition: all 0.3s ease-in-out;
+      &:hover, &:focus{
+        color: white;
+
+      }
+    }
+  }
